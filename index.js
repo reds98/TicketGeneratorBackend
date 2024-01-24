@@ -21,7 +21,7 @@ app.post('/generate-pdf', async (req, res) => {
 
     page.drawText(fecha, { x: 43, y: 42, size: 10, color: rgb(0, 0, 0) });
     page.drawText(hora, { x: 150, y: 42, size: 10, color: rgb(0, 0, 0) });
-    page.drawText(nombre, { x: 43, y: 20, size: 10, color: rgb(0, 0, 0) });
+    page.drawText(nombre, { x: 43, y: 20, size: 8, color: rgb(0, 0, 0) });
     page.drawText(campos, { x: 150, y: 20, size: 10, color: rgb(0, 0, 0) });
    
 
